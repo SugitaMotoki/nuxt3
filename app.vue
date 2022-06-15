@@ -1,20 +1,10 @@
 <template>
-  <div id="event-handling">
-    <p>{{ count }}</p>
-    <button @click="increment">Increment</button>
-    <button @click="ab">AB</button>
-  </div>
+  <v-app>
+    <v-app-bar app>
+      <v-app-bar-title>Nuxt3</v-app-bar-title>
+    </v-app-bar>
+    <v-main>
+      <nuxt-page></nuxt-page>
+    </v-main>
+  </v-app>
 </template>
-
-<script setup lang="ts">
-const count = ref(0);
-const increment = () => {
-  count.value++;
-}
-function ab() {
-  console.log("aa");
-}
-</script>
-
-<style scoped>
-</style>
