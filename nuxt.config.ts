@@ -11,4 +11,11 @@ export default defineNuxtConfig({
       "process.env.DEBUG": false,
     },
   },
+  plugins: [{
+    src: "~/plugins/firebase.ts",
+    mode: "client",
+  }],
+  generate: {
+    dir: "public",
+  }
 });
