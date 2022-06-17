@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <h1>Nuxt!!</h1>
+    <h1>トップページ</h1>
+    <NuxtLink to="/pictures">写真</NuxtLink>
     <Counter/>
     <Counter/>
   </v-container>
