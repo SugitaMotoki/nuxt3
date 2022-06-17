@@ -1,10 +1,12 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <v-app-bar-title>Nuxt3</v-app-bar-title>
+      <v-app-bar-title>
+        <NuxtLink to="/">Golf</NuxtLink>
+      </v-app-bar-title>
     </v-app-bar>
     <v-main>
-      <nuxt-page></nuxt-page>
+      <NuxtPage/>
     </v-main>
   </v-app>
 </template>
