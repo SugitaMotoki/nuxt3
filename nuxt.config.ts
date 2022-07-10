@@ -17,5 +17,8 @@ export default defineNuxtConfig({
   }],
   generate: {
     dir: "public",
+  },
+  typescript: {
+    strict: true
   }
 });
